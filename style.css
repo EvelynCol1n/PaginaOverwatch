@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family:gamecuben;
+    src: url(./gamecuben/GameCube.ttf);
+}
+header{
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#FF6501;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+header ul li {
+    display: flex;
+    font-family:"Lexend Deca", sans-serif;
+    font-weight: 700;
+    font-size: larger;
+    justify-content:space-between;
+    flex-direction: row;
+    margin: 69px;
+}
+
+header img{
+    width: 255px;
+    height: 150px;
+}
+.caja1{
+    background-color:#FF6501;
+    width: auto;
+}
+
+.caja1 img{
+    width: 100%;
+}
+
+.caja2{
+    background-color:#FF6501;
+    display: flex;
+    height: 100px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-family: gamecuben;
+    color: white;
+    font-weight: normal;
+    font-size: x-large;
+}
+.caja3{
+    background-color:#FFFFFF;
+    font-family: "Lexend Deca", sans-serif;
+    color:#393C45;
+    font-weight: normal;
+    font-size:x-large;
+    height: -50px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.caja4{
+    font-family:"Lexend Deca", sans-serif;
+    font-size:x-large;
+    color:#393C45;
+    font-weight: normal;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.caja5{
+    font-family:"Lexend Deca", sans-serif;
+    color: white;
+    background-color:#FF6501;
+    text-align: center;
+    font-weight: normal;
+    font-size:x-large;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 800px;
+}
+
+.caja6{
+    font-family:"Lexend Deca", sans-serif;
+    color: white;
+    background-color:#2A2C36;
+    text-align:center;
+    font-weight: normal;
+    font-size:x-large;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    }
+
+section{
+    display: flex;
+    width: 1887px;
+    height: 430px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover{
+   cursor: crosshair;
+   width: 300px;
+   opacity: 1;
+   filter: contrast(120%);
+}
+
+.video1{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-content: stretch;
+}
+
+footer{
+    font-family:"Lexend Deca", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
